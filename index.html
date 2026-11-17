@@ -4,33 +4,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ATM Digital Solutions & Services - Graphic Design, Printing, Internet Services, POS and Student Opportunities in Nigeria.">
 <title>ATM Digital Solutions & Services</title>
+
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,sans-serif;line-height:1.6;color:#17243a;background:#f5f7fb}
-header{background:#102b50;color:white;padding:20px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f5f7fb;color:#222;line-height:1.6}
+header{background:#102b50;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
 .logo{font-size:21px;font-weight:bold}
 .logo span{color:#ff4545}
-nav a{color:white;text-decoration:none;margin:8px;font-size:14px}
-.hero{background:linear-gradient(120deg,#102b50,#1764a5);color:white;text-align:center;padding:85px 20px}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none;font-size:14px}
+nav a:hover{color:#ff4545}
+.hero{background:linear-gradient(120deg,#102b50,#1764a5);color:white;text-align:center;padding:90px 20px}
 .hero h1{font-size:36px;margin-bottom:15px}
-.hero p{max-width:650px;margin:0 auto 25px}
-.btn{display:inline-block;background:#ed3434;color:white;padding:12px 23px;border-radius:6px;text-decoration:none;font-weight:bold}
-section{padding:55px 7%}
-.heading{text-align:center;margin-bottom:30px}
+.hero p{max-width:650px;margin:auto auto 25px}
+.btn{display:inline-block;background:#ed3434;color:white;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold;margin:5px}
+.btn:hover{background:#c92323}
+.btn.blue{background:#102b50}
+section{padding:60px 7%}
+.heading{text-align:center;margin-bottom:35px}
 .heading h2{color:#102b50;font-size:28px}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px}
+.heading p{color:#666;margin-top:8px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
 .service{background:white;padding:25px;border-radius:10px;box-shadow:0 3px 12px #00000010}
 .service h3{color:#14538a;margin-bottom:10px}
+.service .emoji{font-size:32px;margin-bottom:12px}
 .about{background:white;text-align:center}
-.about p{max-width:750px;margin:auto}
+.about p{max-width:800px;margin:15px auto}
+.opportunity{background:#eaf2fc;text-align:center}
 .contact{background:#102b50;color:white;text-align:center}
-.contact h2{margin-bottom:15px}
-.contact p{margin:10px}
-footer{background:#091a30;color:white;text-align:center;padding:20px;font-size:13px}
-@media(max-width:600px){.hero h1{font-size:28px}header{justify-content:center;text-align:center}nav a{display:inline-block}}
+.contact h2{color:white}
+.contact a{color:white}
+.contact-details{margin:20px auto;line-height:2}
+footer{background:#091b31;color:white;text-align:center;padding:22px;font-size:14px}
+footer span{color:#ff4545}
+.whatsapp{position:fixed;bottom:20px;right:18px;background:#20b95b;color:white;text-decoration:none;padding:13px 17px;border-radius:30px;font-weight:bold;box-shadow:0 3px 10px #0003}
+@media(max-width:600px){
+header{justify-content:center;text-align:center}
+nav{justify-content:center}
+.hero{padding:65px 18px}
+.hero h1{font-size:29px}
+section{padding:45px 6%}
+}
 </style>
 </head>
+
 <body>
 
 <header>
@@ -39,51 +59,130 @@ footer{background:#091a30;color:white;text-align:center;padding:20px;font-size:1
 <a href="#home">Home</a>
 <a href="#about">About</a>
 <a href="#services">Services</a>
+<a href="#opportunities">Opportunities</a>
 <a href="#contact">Contact</a>
 </nav>
 </header>
 
 <div class="hero" id="home">
 <h1>Welcome to ATM Digital Solutions & Services</h1>
-<p>Your trusted destination for digital solutions, graphic design, printing, business services and student opportunities.</p>
-<a class="btn" href="https://wa.me/2348133515448">Contact Us on WhatsApp</a>
+<p>Your trusted partner for digital solutions, graphic design, printing, internet services and educational opportunities.</p>
+<a class="btn" href="#services">Explore Our Services</a>
+<a class="btn blue" href="https://wa.me/2348133515448">Contact Us</a>
 </div>
 
 <section class="about" id="about">
-<div class="heading"><h2>About Our Business</h2></div>
-<p>ATM Digital Solutions & Services is a digital service and creative business based in Malumfashi, Katsina State, Nigeria. We provide digital solutions, graphic design, printing, typing and other services to individuals, students and businesses.</p>
+<div class="heading">
+<h2>About ATM Digital Solutions</h2>
+<p>Technology, Creativity and Digital Opportunities</p>
+</div>
+<p>ATM Digital Solutions & Services is a digital service brand committed to providing reliable, affordable and quality digital solutions to individuals, students and businesses.</p>
+<p>Our goal is to make technology and digital services more accessible while helping people develop their digital skills and discover valuable opportunities.</p>
 </section>
 
 <section id="services">
 <div class="heading">
 <h2>Our Services</h2>
-<p>Quality services you can trust.</p>
+<p>Explore the services we provide.</p>
 </div>
+
 <div class="services">
-<div class="service"><h3>🎨 Graphic Design</h3><p>Flyers, banners, posters, invitation cards, logos and branding.</p></div>
-<div class="service"><h3>🖨️ Printing Services</h3><p>Document printing, photocopying and other printing solutions.</p></div>
-<div class="service"><h3>⌨️ Typing Services</h3><p>Assignments, project typing, CVs and document formatting.</p></div>
-<div class="service"><h3>📸 Passport Photography</h3><p>Passport photographs and photo editing services.</p></div>
-<div class="service"><h3>💳 POS Services</h3><p>Convenient payment and financial transaction services.</p></div>
-<div class="service"><h3>📚 Bookshop</h3><p>Educational materials, books and stationery.</p></div>
-<div class="service"><h3>🎓 Student Opportunities</h3><p>Updates on scholarships, grants, bursaries, internships, admissions and jobs.</p></div>
-<div class="service"><h3>💻 Digital Solutions</h3><p>Computer-related services and digital support.</p></div>
+
+<div class="service">
+<div class="emoji">🎨</div>
+<h3>Graphic Design</h3>
+<p>Professional flyers, banners, logos, wedding cards, invitation cards, stickers and other creative designs.</p>
+</div>
+
+<div class="service">
+<div class="emoji">🖨️</div>
+<h3>Printing Services</h3>
+<p>Document printing, photocopying, scanning, typing and other office services.</p>
+</div>
+
+<div class="service">
+<div class="emoji">💻</div>
+<h3>Computer Services</h3>
+<p>Computer assistance, document preparation, internet browsing and digital support.</p>
+</div>
+
+<div class="service">
+<div class="emoji">💳</div>
+<h3>POS Services</h3>
+<p>Convenient POS transactions and other available financial services.</p>
+</div>
+
+<div class="service">
+<div class="emoji">📚</div>
+<h3>Educational Support</h3>
+<p>Academic typing, document formatting, learning resources and digital skills support.</p>
+</div>
+
+<div class="service">
+<div class="emoji">🌐</div>
+<h3>Internet Services</h3>
+<p>Internet-related assistance and digital services for individuals and businesses.</p>
+</div>
+
 </div>
 </section>
 
-<section class="contact" id="contact">
-<h2>Contact ATM Digital Solutions</h2>
-<p>📍 Malumfashi, Katsina State, Nigeria</p>
-<p>📧 atmdigitalservice@gmail.com</p>
-<p>📞 08133515448</p>
-<br>
-<a class="btn" href="https://wa.me/2348133515448">Chat with Us</a>
+<section class="opportunity" id="opportunities">
+<div class="heading">
+<h2>Students' Opportunities</h2>
+<p>Discover opportunities that can help you grow.</p>
+</div>
+<div class="services">
+<div class="service">
+<div class="emoji">🎓</div>
+<h3>Scholarships</h3>
+<p>Information about scholarship programmes and educational funding.</p>
+</div>
+<div class="service">
+<div class="emoji">💰</div>
+<h3>Grants & Bursaries</h3>
+<p>Updates about genuine grants and bursary opportunities for eligible applicants.</p>
+</div>
+<div class="service">
+<div class="emoji">💼</div>
+<h3>Jobs & Internships</h3>
+<p>Information about job vacancies, internships and SIWES opportunities.</p>
+</div>
+<div class="service">
+<div class="emoji">🚀</div>
+<h3>Digital Skills</h3>
+<p>Discover free courses, technology training and digital learning opportunities.</p>
+</div>
+</div>
+<p style="margin-top:25px">We aim to share verified opportunities with official application links and deadlines. Always check eligibility before applying.</p>
+<a class="btn blue" href="https://wa.me/2348133515448">Get Updates on WhatsApp</a>
+</section>
+
+<section id="contact" class="contact">
+<div class="heading">
+<h2>Contact Us</h2>
+<p style="color:white">We are ready to serve you.</p>
+</div>
+
+<div class="contact-details">
+<p><strong>Business:</strong> ATM Digital Solutions & Services</p>
+<p><strong>Location:</strong> Malumfashi, Katsina State, Nigeria</p>
+<p><strong>Phone:</strong> 08133515448</p>
+<p><strong>Email:</strong> atmdigitalservice@gmail.com</p>
+</div>
+
+<a class="btn" href="https://wa.me/2348133515448">Chat with Us on WhatsApp</a>
+<a class="btn blue" href="mailto:atmdigitalservice@gmail.com">Send Us an Email</a>
 </section>
 
 <footer>
-<p>© 2026 ATM Digital Solutions & Services. All Rights Reserved.</p>
-<p>Technology • Creativity • Digital Opportunities</p>
+<p>&copy; 2026 ATM Digital Solutions & Services.</p>
+<p>Designed with <span>♥</span> by ATM Graphics.</p>
+<p>All Rights Reserved.</p>
 </footer>
 
+<a class="whatsapp" href="https://wa.me/2348133515448">WhatsApp</a>
+
 </body>
-</html>
+  </html>
+  
